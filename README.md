@@ -1,17 +1,25 @@
 # Swagger with express node
 
-## Auto gen swagger doc with express (node)
+### Auto gen swagger doc with express (node)
+
+### Used library
+```js
+swagger-autogen (--save-dev)
+express 
+swagger-ui-express
+body-parser
+```
 
 ## How use
 
 #### step 1
-```
+```bash
 git clone https://github.com/josiasmartins/swagger-express-node
 ```
 
 ##### step 2. 
 Enter in folder > npm i, after execute script above
-```
+```bash
 npm run swagger
 ```
 
